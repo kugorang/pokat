@@ -1,65 +1,330 @@
-<!DOCTYPE html>
-<html lang="ko">
+<!doctype html>
+<html lang="ko" data-language="ko">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>포근한 고양이, 포캣 지원</title>
-<style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
-    max-width: 40rem;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    line-height: 1.7;
-    color: #222;
-    background: #fff;
-  }
-  h1 {
-    font-size: 1.6rem;
-    margin: 0 0 1.5rem;
-  }
-  h2 {
-    font-size: 1.2rem;
-    margin: 2rem 0 0.5rem;
-  }
-  p {
-    margin: 0.5rem 0;
-  }
-  a {
-    color: #0b62c4;
-  }
-  footer {
-    margin-top: 3rem;
-    padding-top: 1rem;
-    border-top: 1px solid #ddd;
-    font-size: 0.85rem;
-    color: #666;
-  }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>포근한 고양이, 포캣</title>
+  <meta name="description" content="크림색 아기 고양이 포캣의 iMessage 스티커 24컷. 무료이며 현재 App Store 심사 중입니다.">
+  <meta name="theme-color" content="#FFF8EE" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#241F1C" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://pokat.kugora.ng/">
+  <meta property="og:title" content="포근한 고양이, 포캣">
+  <meta property="og:description" content="감정과 일상을 담은 리액션 24컷. 무료 iMessage 스티커 앱으로, 현재 App Store 심사 중입니다.">
+  <meta property="og:image" content="https://pokat.kugora.ng/assets/icon-256.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon-64.png">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/site.css">
 </head>
 <body>
-<main>
-<h1>포근한 고양이, 포캣 지원</h1>
-<p>크림색 아기 고양이 포캣의 iMessage 스티커 24컷입니다. Cozy Pocket Cat, Pokat · ほっこりポケットねこ、ポキャット</p>
-<section>
-<h2>문의 · Contact</h2>
-<p>스티커 앱에 관한 문의는 아래 이메일로 보내 주세요. For questions, please email:</p>
-<p><a href="mailto:ialskdji@gmail.com">ialskdji@gmail.com</a></p>
-</section>
-<section>
-<h2>환불 · Refunds</h2>
-<p>이 앱은 무료입니다. App Store 구입 항목의 환불은 Apple 공식 절차로 요청해 주세요.</p>
-<p><a href="https://support.apple.com/ko-kr/118223">Apple에서 구입한 앱 또는 콘텐츠의 환불 요청하기</a></p>
-</section>
-<section>
-<h2>개인정보 · Privacy</h2>
-<p>이 스티커 앱은 개인정보를 수집하지 않습니다. 자세한 내용은 <a href="/privacy.html">개인정보처리방침</a>을 확인해 주세요.</p>
-<p>This sticker app does not collect any personal data. See the <a href="/privacy.html">privacy policy</a>.</p>
-</section>
-</main>
-<footer>
-<p><a href="/">지원</a> · <a href="/privacy.html">개인정보처리방침</a></p>
-<p>© 2026 kugorang</p>
-</footer>
+  <a class="skip-link" href="#main">
+    <span data-lang="ko" lang="ko">본문으로 건너뛰기</span>
+    <span data-lang="en" lang="en">Skip to content</span>
+    <span data-lang="ja" lang="ja">本文へスキップ</span>
+  </a>
+
+  <header class="site-header">
+    <a class="brand" href="/">
+      <img src="/assets/icon-256.png" width="40" height="40" alt="포캣 앱 아이콘" data-alt-en="Pokat app icon" data-alt-ja="ポキャットのアプリアイコン" decoding="async">
+      <span data-lang="ko" lang="ko">포근한 고양이, 포캣</span>
+      <span data-lang="en" lang="en">Cozy Pocket Cat, Pokat</span>
+      <span data-lang="ja" lang="ja">ポキャット ほっこりポケットねこ</span>
+    </a>
+    <div class="language-toggle" role="group" aria-label="언어 / Language / 言語">
+      <button type="button" lang="ko" data-switch="ko" aria-pressed="true">한국어</button>
+      <button type="button" lang="en" data-switch="en" aria-pressed="false">English</button>
+      <button type="button" lang="ja" data-switch="ja" aria-pressed="false">日本語</button>
+    </div>
+  </header>
+
+  <main id="main" class="site-main" tabindex="-1">
+    <section class="hero card" aria-labelledby="hero-title">
+      <div class="hero-art">
+        <img class="hero-icon" src="/assets/icon-256.png" width="256" height="256" alt="포캣 앱 아이콘" data-alt-en="Pokat app icon" data-alt-ja="ポキャットのアプリアイコン" decoding="async" fetchpriority="high">
+      </div>
+      <div class="hero-copy">
+        <p class="eyebrow">
+          <span data-lang="ko" lang="ko">iPhone · iPad의 Apple 메시지 앱용 스티커</span>
+          <span data-lang="en" lang="en">Stickers for Apple’s Messages app on iPhone · iPad</span>
+          <span data-lang="ja" lang="ja">iPhone・iPadのAppleメッセージアプリ用ステッカー</span>
+        </p>
+        <h1 id="hero-title">
+          <span data-lang="ko" lang="ko">포근한 고양이, 포캣</span>
+          <span data-lang="en" lang="en">Cozy Pocket Cat, Pokat</span>
+          <span data-lang="ja" lang="ja"><span class="nowrap">ポキャット</span> <span class="nowrap">ほっこりポケットねこ</span></span>
+        </h1>
+        <p class="subtitle">
+          <span data-lang="ko" lang="ko">감정과 일상을 담은 리액션 24컷</span>
+          <span data-lang="en" lang="en">24 daily feeling reactions</span>
+          <span data-lang="ja" lang="ja">気持ちと日常のリアクション24点</span>
+        </p>
+        <p class="intro">
+          <span data-lang="ko" lang="ko">크림색 아기 고양이 포캣은 포근한 고양이에요. 기쁜 날의 얼굴도, 속상한 날의 얼굴도, 하루를 오가는 작은 리액션도 24컷에 담았습니다.</span>
+          <span data-lang="en" lang="en">Pocat is a cream kitten and a cozy pocket cat. These 24 reactions are for glad days, hard days, and the small moods in between.</span>
+          <span data-lang="ja" lang="ja">ポキャットはクリーム色の子猫です。ほっこりポケットねことして、うれしい日の顔も、つらい日の顔も、一日のなかの小さなリアクションも24点にしました。</span>
+        </p>
+        <ul class="chips">
+          <li>
+            <span data-lang="ko" lang="ko">무료</span>
+            <span data-lang="en" lang="en">Free</span>
+            <span data-lang="ja" lang="ja">無料</span>
+          </li>
+          <li>
+            <span data-lang="ko" lang="ko">스티커 24컷</span>
+            <span data-lang="en" lang="en">24 stickers</span>
+            <span data-lang="ja" lang="ja">ステッカー24点</span>
+          </li>
+          <li>iMessage</li>
+        </ul>
+        <p class="status">
+          <span data-lang="ko" lang="ko">App Store 심사 중이에요. 공개되면 이 페이지에 안내할게요.</span>
+          <span data-lang="en" lang="en">Currently in App Store review. We'll note it here once it's available.</span>
+          <span data-lang="ja" lang="ja">現在App Storeの審査中です。公開されたらこのページでお知らせします。</span>
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#stickers">
+            <span data-lang="ko" lang="ko">스티커 보기</span>
+            <span data-lang="en" lang="en">See the stickers</span>
+            <span data-lang="ja" lang="ja">ステッカーを見る</span>
+          </a>
+          <a class="button button-secondary" href="#support">
+            <span data-lang="ko" lang="ko">문의하기</span>
+            <span data-lang="en" lang="en">Contact support</span>
+            <span data-lang="ja" lang="ja">お問い合わせ</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="stickers" class="gallery-section" aria-labelledby="stickers-title">
+      <h2 id="stickers-title">
+        <span data-lang="ko" lang="ko">포캣 스티커 24컷</span>
+        <span data-lang="en" lang="en">The 24 Pokat stickers</span>
+        <span data-lang="ja" lang="ja">ポキャットのステッカー24点</span>
+      </h2>
+      <ul class="sticker-grid">
+        <li><img src="/assets/stickers/01.webp" width="240" height="240" alt="포캣 스티커 1" data-sticker="1" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/02.webp" width="240" height="240" alt="포캣 스티커 2" data-sticker="2" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/03.webp" width="240" height="240" alt="포캣 스티커 3" data-sticker="3" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/04.webp" width="240" height="240" alt="포캣 스티커 4" data-sticker="4" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/05.webp" width="240" height="240" alt="포캣 스티커 5" data-sticker="5" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/06.webp" width="240" height="240" alt="포캣 스티커 6" data-sticker="6" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/07.webp" width="240" height="240" alt="포캣 스티커 7" data-sticker="7" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/08.webp" width="240" height="240" alt="포캣 스티커 8" data-sticker="8" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/09.webp" width="240" height="240" alt="포캣 스티커 9" data-sticker="9" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/10.webp" width="240" height="240" alt="포캣 스티커 10" data-sticker="10" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/11.webp" width="240" height="240" alt="포캣 스티커 11" data-sticker="11" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/12.webp" width="240" height="240" alt="포캣 스티커 12" data-sticker="12" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/13.webp" width="240" height="240" alt="포캣 스티커 13" data-sticker="13" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/14.webp" width="240" height="240" alt="포캣 스티커 14" data-sticker="14" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/15.webp" width="240" height="240" alt="포캣 스티커 15" data-sticker="15" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/16.webp" width="240" height="240" alt="포캣 스티커 16" data-sticker="16" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/17.webp" width="240" height="240" alt="포캣 스티커 17" data-sticker="17" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/18.webp" width="240" height="240" alt="포캣 스티커 18" data-sticker="18" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/19.webp" width="240" height="240" alt="포캣 스티커 19" data-sticker="19" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/20.webp" width="240" height="240" alt="포캣 스티커 20" data-sticker="20" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/21.webp" width="240" height="240" alt="포캣 스티커 21" data-sticker="21" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/22.webp" width="240" height="240" alt="포캣 스티커 22" data-sticker="22" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/23.webp" width="240" height="240" alt="포캣 스티커 23" data-sticker="23" loading="lazy" decoding="async"></li>
+        <li><img src="/assets/stickers/24.webp" width="240" height="240" alt="포캣 스티커 24" data-sticker="24" loading="lazy" decoding="async"></li>
+      </ul>
+    </section>
+
+    <section id="how" class="card text-section" aria-labelledby="how-title">
+      <h2 id="how-title">
+        <span data-lang="ko" lang="ko">iMessage에서 사용하는 방법</span>
+        <span data-lang="en" lang="en">How to use in iMessage</span>
+        <span data-lang="ja" lang="ja">iMessageでの使い方</span>
+      </h2>
+      <ol class="steps" data-lang="ko" lang="ko">
+        <li>메시지 앱을 열고 대화를 여세요.</li>
+        <li>입력창 옆의 “+” 버튼을 누른 뒤 “스티커”를 누르세요. 이전 iOS에서는 App Store 또는 앱 아이콘을 누르세요.</li>
+        <li>포캣을 선택하고 스티커를 눌러 보내세요. 스티커를 길게 누른 채 메시지 말풍선으로 끌어다 놓을 수도 있어요.</li>
+      </ol>
+      <ol class="steps" data-lang="en" lang="en">
+        <li>Open the Messages app and open a conversation.</li>
+        <li>Tap the “+” button next to the text field, then tap “Stickers.” On older iOS, tap the App Store or apps icon.</li>
+        <li>Choose Pokat and tap a sticker to send it, or touch and hold a sticker and drag it onto a message bubble.</li>
+      </ol>
+      <ol class="steps" data-lang="ja" lang="ja">
+        <li>メッセージアプリを開き、会話を開きます。</li>
+        <li>入力欄の横にある「+」ボタンをタップし、「ステッカー」をタップします。以前のiOSでは、App Storeまたはアプリのアイコンをタップします。</li>
+        <li>ポキャットを選んでステッカーをタップすると送信できます。ステッカーを長押しして、メッセージの吹き出しにドラッグすることもできます。</li>
+      </ol>
+      <p class="note">
+        <span data-lang="ko" lang="ko">설치 후 포캣이 보이지 않으면 메시지의 스티커/앱 목록을 확인해 주세요.</span>
+        <span data-lang="en" lang="en">After installing, if Pokat doesn't appear, check the sticker/app list in Messages.</span>
+        <span data-lang="ja" lang="ja">インストール後にポキャットが表示されない場合は、メッセージのステッカー／アプリ一覧を確認してください。</span>
+      </p>
+    </section>
+
+    <section id="support" class="card text-section" aria-labelledby="support-title">
+      <h2 id="support-title">
+        <span data-lang="ko" lang="ko">문의와 자주 묻는 질문</span>
+        <span data-lang="en" lang="en">Support &amp; FAQ</span>
+        <span data-lang="ja" lang="ja">お問い合わせ・よくある質問</span>
+      </h2>
+      <p class="contact-line">
+        <span data-lang="ko" lang="ko">문의: </span>
+        <span data-lang="en" lang="en">Contact: </span>
+        <span data-lang="ja" lang="ja">お問い合わせ： </span>
+        <a href="mailto:ialskdji@gmail.com">ialskdji@gmail.com</a>
+      </p>
+      <p>
+        <span data-lang="ko" lang="ko">기기 모델, iOS/iPadOS 버전, 어떤 일이 있었는지 알려 주세요. 가능하면 스크린샷도 함께 보내 주세요.</span>
+        <span data-lang="en" lang="en">Please include your device model, iOS/iPadOS version, what happened, and a screenshot if possible.</span>
+        <span data-lang="ja" lang="ja">端末のモデル、iOS/iPadOSのバージョン、起きたことをお知らせください。可能であればスクリーンショットも添えてください。</span>
+      </p>
+      <p class="note">
+        <span data-lang="ko" lang="ko">주민등록번호, 결제 정보, 다른 사람의 개인정보는 보내지 마세요.</span>
+        <span data-lang="en" lang="en">Do not send resident registration numbers, payment information, or other people’s personal information.</span>
+        <span data-lang="ja" lang="ja">住民登録番号、支払い情報、他の人の個人情報は送らないでください。</span>
+      </p>
+      <div class="faq">
+        <details>
+          <summary>
+            <span data-lang="ko" lang="ko">무료인가요?</span>
+            <span data-lang="en" lang="en">Is it free?</span>
+            <span data-lang="ja" lang="ja">無料ですか？</span>
+          </summary>
+          <p>
+            <span data-lang="ko" lang="ko">네, 무료예요.</span>
+            <span data-lang="en" lang="en">Yes, it’s free.</span>
+            <span data-lang="ja" lang="ja">はい、無料です。</span>
+          </p>
+        </details>
+        <details>
+          <summary>
+            <span data-lang="ko" lang="ko">제 데이터를 수집하나요?</span>
+            <span data-lang="en" lang="en">Does it collect my data?</span>
+            <span data-lang="ja" lang="ja">データを収集しますか？</span>
+          </summary>
+          <p>
+            <span data-lang="ko" lang="ko">아니요. 개인정보를 수집하지 않아요. <a href="/privacy.html">개인정보처리방침</a>을 확인해 주세요.</span>
+            <span data-lang="en" lang="en">No. It collects no personal data. See the <a href="/privacy.html">privacy policy</a>.</span>
+            <span data-lang="ja" lang="ja">いいえ。個人情報は収集しません。<a href="/privacy.html">プライバシーポリシー</a>をご確認ください。</span>
+          </p>
+        </details>
+        <details>
+          <summary>
+            <span data-lang="ko" lang="ko">어디에서 받을 수 있나요?</span>
+            <span data-lang="en" lang="en">Where can I get it?</span>
+            <span data-lang="ja" lang="ja">どこで入手できますか？</span>
+          </summary>
+          <p>
+            <span data-lang="ko" lang="ko">현재 App Store 심사 중이에요. 공개되면 이 페이지에 안내할게요.</span>
+            <span data-lang="en" lang="en">It is under App Store review. This page will be updated once it is available.</span>
+            <span data-lang="ja" lang="ja">現在App Storeの審査中です。公開されたらこのページでお知らせします。</span>
+          </p>
+        </details>
+        <details>
+          <summary>
+            <span data-lang="ko" lang="ko">환불은 어떻게 하나요?</span>
+            <span data-lang="en" lang="en">Refunds?</span>
+            <span data-lang="ja" lang="ja">返金については？</span>
+          </summary>
+          <p>
+            <span data-lang="ko" lang="ko">포캣은 무료예요. App Store 구매 관련 문제는 <a href="https://support.apple.com/118223">Apple의 공식 환불 절차</a>를 이용해 주세요.</span>
+            <span data-lang="en" lang="en">Pokat is free. For App Store purchase issues, use <a href="https://support.apple.com/118223">Apple’s official refund process</a>.</span>
+            <span data-lang="ja" lang="ja">ポキャットは無料です。App Storeでの購入に関する問題は、<a href="https://support.apple.com/118223">Appleの公式返金手続き</a>をご利用ください。</span>
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section id="privacy" class="card text-section" aria-labelledby="privacy-title">
+      <h2 id="privacy-title">
+        <span data-lang="ko" lang="ko">개인정보 안내</span>
+        <span data-lang="en" lang="en">Privacy at a glance</span>
+        <span data-lang="ja" lang="ja">プライバシーについて</span>
+      </h2>
+      <ul class="privacy-list" data-lang="ko" lang="ko">
+        <li>앱에는 스티커 이미지만 있으며, 개인정보를 수집하거나 어떤 정보도 전송하지 않아요.</li>
+        <li>광고, 분석, 추적 기능이 없어요.</li>
+        <li>이메일로 문의하시면 이메일 주소와 메시지는 답변을 위해서만 사용해요.</li>
+      </ul>
+      <ul class="privacy-list" data-lang="en" lang="en">
+        <li>The app contains only sticker images. It collects no personal data and sends nothing.</li>
+        <li>There are no ads, analytics, or tracking.</li>
+        <li>If you email us, your email address and message are used only to reply.</li>
+      </ul>
+      <ul class="privacy-list" data-lang="ja" lang="ja">
+        <li>アプリにはステッカー画像のみが含まれ、個人情報を収集せず、情報を送信することもありません。</li>
+        <li>広告、アクセス解析、トラッキングはありません。</li>
+        <li>メールでお問い合わせいただいた場合、メールアドレスと内容は返信のためだけに使用します。</li>
+      </ul>
+      <p>
+        <a href="/privacy.html">
+          <span data-lang="ko" lang="ko">개인정보처리방침 전문 보기</span>
+          <span data-lang="en" lang="en">Read the full privacy policy</span>
+          <span data-lang="ja" lang="ja">プライバシーポリシー全文を見る</span>
+        </a>
+      </p>
+      <p class="small muted">
+        <span data-lang="ko" lang="ko">전문은 한국어로 제공되며 영어 요약이 포함되어 있어요.</span>
+        <span data-lang="en" lang="en">The full policy is in Korean, with an English summary.</span>
+        <span data-lang="ja" lang="ja">全文は韓国語で、英語の要約が含まれています。</span>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <span data-lang="ko" lang="ko">운영자 쿠고랑 (kugorang) · 개인정보 보호책임자 김현우</span>
+      <span data-lang="en" lang="en">Operator: kugorang · Privacy officer: Hyeonwoo Kim</span>
+      <span data-lang="ja" lang="ja">運営者：쿠고랑 (kugorang) · 個人情報保護責任者：김현우 (Hyeonwoo Kim)</span>
+      <span class="footer-contact"> · <a href="mailto:ialskdji@gmail.com">ialskdji@gmail.com</a></span>
+    </p>
+    <nav aria-label="소개 / About / サイト情報">
+      <a href="/">
+        <span data-lang="ko" lang="ko">소개</span>
+        <span data-lang="en" lang="en">About</span>
+        <span data-lang="ja" lang="ja">紹介</span>
+      </a>
+      <span aria-hidden="true"> · </span>
+      <a href="/privacy.html">
+        <span data-lang="ko" lang="ko">개인정보처리방침</span>
+        <span data-lang="en" lang="en">Privacy policy</span>
+        <span data-lang="ja" lang="ja">プライバシーポリシー</span>
+      </a>
+    </nav>
+    <p>© 2026 kugorang</p>
+  </footer>
+
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const buttons = document.querySelectorAll('[data-switch]');
+      const valid = lang => ['ko', 'en', 'ja'].includes(lang);
+      document.querySelectorAll('img[data-alt-en]').forEach(img => {
+        img.dataset.altKo = img.alt;
+      });
+      function setLanguage(lang, remember) {
+        if (!valid(lang)) lang = 'ko';
+        root.lang = lang;
+        root.dataset.language = lang;
+        buttons.forEach(button => {
+          button.setAttribute('aria-pressed', String(button.dataset.switch === lang));
+        });
+        document.querySelectorAll('img[data-sticker]').forEach(img => {
+          const prefix = {ko: '포캣 스티커 ', en: 'Pokat sticker ', ja: 'ポキャット ステッカー '};
+          img.alt = prefix[lang] + img.dataset.sticker;
+        });
+        document.querySelectorAll('img[data-alt-en]').forEach(img => {
+          img.alt = img.getAttribute('data-alt-' + lang);
+        });
+        if (remember) {
+          try { localStorage.setItem('pokat-language', lang); } catch (_) {}
+        }
+      }
+      buttons.forEach(button => {
+        button.addEventListener('click', () => setLanguage(button.dataset.switch, true));
+      });
+      const query = new URLSearchParams(location.search).get('lang');
+      let saved = null;
+      try { saved = localStorage.getItem('pokat-language'); } catch (_) {}
+      setLanguage(valid(query) ? query : valid(saved) ? saved : 'ko', valid(query));
+    })();
+  </script>
 </body>
 </html>
